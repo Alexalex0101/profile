@@ -1,0 +1,90 @@
+
+body {
+  background: rgb(120,68,77);
+  background: radial-gradient(circle, rgba(120,68,77,0.9458158263305322) 0%, rgba(129,118,120,0.9682247899159664) 44%, rgba(80,64,67,1) 100%);
+  color: #000000;
+  text-align: center;
+  font-family: 'Teko', sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-size:  40px;
+  color:  #000000;
+  font-weight: 700;
+}
+
+.container {
+  width: 500px;
+  margin:  0 auto;
+}
+
+.card-grey {
+  background-color: #574e50;
+  margin: 50px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 4px 10px #000000
+
+}
+
+.bottom {
+  padding: 10px
+}
+
+.img-circle {
+  width: 120px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px black;
+}
+
+.btn-purple:hover {
+  color: #FFFFFF;
+}
+
+.btn-black {
+  background-color: #000000;
+  color: #574e50;
+  padding: 10px 12px;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.list-inline {
+  list-style:  none;
+  padding:  0;
+}
+
+.list-inline li {
+  display:  inline;
+}
+
+.list-inline i {
+  font-size: 20px;
+  padding: 4px;
+  color: #000000;
+ }
+
+ .list-inline i:hover {
+  color:  #FFFFFF;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
